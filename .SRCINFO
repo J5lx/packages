@@ -2,8 +2,8 @@
 # Mon Sep 26 04:10:28 UTC 2016
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
-	pkgver = 8.62
-	pkgrel = 2
+	pkgver = 8.63
+	pkgrel = 1
 	url = http://www.cs.wisc.edu/~ghost/
 	install = ghostscript.install
 	arch = i686
@@ -21,8 +21,8 @@ pkgbase = ghostscript
 	replaces = ghostscript-lrpng
 	options = !libtool
 	options = !makeflags
-	source = ftp://mirror.cs.wisc.edu/pub/mirrors/ghost/GPL/gs862/ghostscript-8.62.tar.bz2
-	md5sums = 40d673a3c6e11d2bf14f972b84551104
+	source = ftp://mirror.cs.wisc.edu/pub/mirrors/ghost/GPL/gs863/ghostscript-8.63.tar.bz2
+	md5sums = c770eedfdd846a53e211e3ba5339de21
 
 pkgname = ghostscript
 
