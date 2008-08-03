@@ -20,6 +20,7 @@ pkgbase = ghostscript
 	provides = ghostscript-lprng
 	replaces = ghostscript-lrpng
 	options = !libtool
+	options = !makeflags
 	source = ftp://mirror.cs.wisc.edu/pub/mirrors/ghost/GPL/gs863/ghostscript-8.63.tar.bz2
 	source = ghostscript-fPIC.patch
 	md5sums = c770eedfdd846a53e211e3ba5339de21
