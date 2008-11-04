@@ -21,7 +21,6 @@ pkgbase = imagemagick
 	depends = jasper
 	options = !makeflags
 	options = !docs
-	options = !libtool
 	source = ftp://ftp.imagemagick.org/pub/ImageMagick/ImageMagick-6.4.5-1.tar.bz2
 	source = libpng_mmx_patch_x86_64.patch
 	source = add_delegate.patch
