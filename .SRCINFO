@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 8.63
-	pkgrel = 3
+	pkgrel = 4
 	url = http://www.cs.wisc.edu/~ghost/
 	arch = i686
 	arch = x86_64
