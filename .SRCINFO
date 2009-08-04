@@ -23,7 +23,6 @@ pkgbase = ghostscript
 	provides = ghostscript-lprng
 	replaces = ghostscript-lrpng
 	options = !libtool
-	options = !makeflags
 	source = http://ghostscript.com/releases/ghostscript-8.70.tar.bz2
 	source = ghostscript-fPIC.patch
 	md5sums = 526366f8cb4fda0d3d293597cc5b984b
