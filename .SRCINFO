@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 8.70
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.cs.wisc.edu/~ghost/
 	arch = i686
 	arch = x86_64
@@ -11,10 +11,10 @@ pkgbase = ghostscript
 	license = custom
 	makedepends = automake
 	makedepends = autoconf
-	makedepends = gtk2>=2.16.5
+	makedepends = gtk2>=2.18
 	depends = libxext
 	depends = libxt
-	depends = libcups>=1.4.0
+	depends = libcups>=1.4.2
 	depends = fontconfig>=2.6.0
 	depends = gnutls>=2.8.3
 	depends = cairo>=1.8.8
