@@ -3,20 +3,21 @@
 pkgbase = imagemagick
 	pkgdesc = An image viewing/manipulation program
 	pkgver = 6.5.9.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.imagemagick.org/
 	arch = i686
 	arch = x86_64
 	license = custom
-	depends = lcms>=1.18-2
-	depends = libwmf>=0.2.8.4-5
+	makedepends = imagemagick
+	depends = lcms
+	depends = libwmf
 	depends = librsvg
 	depends = libxt
 	depends = gcc-libs
-	depends = ghostscript>=8.64-6
+	depends = ghostscript
 	depends = openexr>=1.6.1
-	depends = libtool>=2.2
-	depends = heimdal>=1.2.1
+	depends = libtool
+	depends = heimdal
 	depends = bzip2
 	depends = libxml2
 	depends = jasper
