@@ -3,7 +3,7 @@
 pkgbase = imagemagick
 	pkgdesc = An image viewing/manipulation program
 	pkgver = 6.6.2.0
-	pkgrel = 1
+	pkgrel = 22
 	url = http://www.imagemagick.org/
 	arch = i686
 	arch = x86_64
