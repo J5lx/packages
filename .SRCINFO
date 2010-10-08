@@ -2,8 +2,8 @@
 # Mon Sep 26 04:10:31 UTC 2016
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
-	pkgver = 8.71
-	pkgrel = 3
+	pkgver = 9.00
+	pkgrel = 1
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -28,18 +28,12 @@ pkgbase = ghostscript
 	replaces = ghostscript-lrpng
 	options = !libtool
 	options = !makeflags
-	source = http://ghostscript.com/releases/ghostscript-8.71.tar.xz
+	source = http://ghostscript.com/releases/ghostscript-9.00.tar.xz
 	source = ghostscript-fPIC.patch
 	source = ghostscript-system-jasper.patch
-	source = libpng14.patch
-	source = ghostscript-pdf2dsc.patch
-	source = svn_r10890.patch
-	md5sums = 5005d68f7395c2bfc4b05c1a60d9b6ba
-	md5sums = 1a8fcacf0005214db823225c870f093d
+	md5sums = 1ca5f245677f78f573e6490bdb40702f
+	md5sums = 766d44c47c693f96941b658e360c1277
 	md5sums = 03e27cd02471ab3b642c344fa06b623e
-	md5sums = be94ee357986f7f63d1b470da5bdc99e
-	md5sums = f88f3764fc11e3ae2a86b17d2502da2f
-	md5sums = fe0888a74d7870af234ad53a2f74380a
 
 pkgname = ghostscript
 
