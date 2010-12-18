@@ -3,37 +3,34 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 9.00
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
 	license = GPL3
 	license = custom
-	makedepends = automake
-	makedepends = autoconf
-	makedepends = gtk2>=2.18.6
-	depends = libxext
+	makedepends = gtk2
+	makedepends = gnutls
 	depends = libxt
-	depends = libcups>=1.4.2-3
-	depends = fontconfig>=2.8.0
-	depends = gnutls>=2.8.5
-	depends = cairo>=1.8.8-2
-	depends = jasper>=1.900.1-4
+	depends = libcups
+	depends = fontconfig
+	depends = jasper
 	depends = zlib
-	depends = libpng>=1.4.0
-	depends = libjpeg>=8
-	optdepends = texlive-core: dvipdf
-	optdepends = gtk2: gsx
-	provides = ghostscript-lprng
-	replaces = ghostscript-lrpng
+	depends = libpng
+	depends = libjpeg
+	depends = libtiff
+	optdepends = texlive-core: needed for dvipdf
+	optdepends = gtk2: needed for gsx
 	options = !libtool
 	options = !makeflags
 	source = http://ghostscript.com/releases/ghostscript-9.00.tar.xz
 	source = ghostscript-fPIC.patch
 	source = ghostscript-system-jasper.patch
+	source = svn_rev11948.diff
 	md5sums = 1ca5f245677f78f573e6490bdb40702f
 	md5sums = 766d44c47c693f96941b658e360c1277
 	md5sums = 03e27cd02471ab3b642c344fa06b623e
+	md5sums = 78f2b9c2d6a5a60891b2d8b593a15b00
 
 pkgname = ghostscript
 
