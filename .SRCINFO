@@ -2,7 +2,7 @@
 # Mon Sep 26 03:17:08 UTC 2016
 pkgbase = imagemagick
 	pkgdesc = An image viewing/manipulation program
-	pkgver = 6.6.4.10
+	pkgver = 6.6.6.10
 	pkgrel = 1
 	url = http://www.imagemagick.org/
 	arch = i686
@@ -14,6 +14,7 @@ pkgbase = imagemagick
 	makedepends = librsvg
 	makedepends = libxml2
 	makedepends = jasper
+	makedepends = libpng
 	depends = libtool
 	depends = lcms
 	depends = libxt
@@ -31,10 +32,10 @@ pkgbase = imagemagick
 	options = !makeflags
 	options = !docs
 	options = force
-	source = ftp://ftp.imagemagick.org/pub/ImageMagick/ImageMagick-6.6.4-10.tar.xz
+	source = ftp://ftp.imagemagick.org/pub/ImageMagick/ImageMagick-6.6.6-10.tar.xz
 	source = libpng_mmx_patch_x86_64.patch
 	source = perlmagick.rpath.patch
-	md5sums = 1ba4e01f17fe0030f41645739d973e38
+	md5sums = 59e2da8333ef645ade5f490c270651a1
 	md5sums = 069980fc2590c02aed86420996259302
 	md5sums = ff9974decbfe9846f8e347239d87e4eb
 
