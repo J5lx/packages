@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 9.00
-	pkgrel = 3
+	pkgrel = 4
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -28,11 +28,13 @@ pkgbase = ghostscript
 	source = ghostscript-system-jasper.patch
 	source = svn_rev11948.diff
 	source = ghostscript-gdevcups-691733.patch
+	source = gs_bug691759and691760.diff
 	md5sums = 1ca5f245677f78f573e6490bdb40702f
 	md5sums = 766d44c47c693f96941b658e360c1277
 	md5sums = 03e27cd02471ab3b642c344fa06b623e
 	md5sums = 78f2b9c2d6a5a60891b2d8b593a15b00
 	md5sums = e459d4cf897bdb54fefbba9d57bd2fa2
+	md5sums = 21841b0ea5bd67cf4b68ba64c5d5755b
 
 pkgname = ghostscript
 
