@@ -2,8 +2,8 @@
 # Mon Sep 26 04:10:32 UTC 2016
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
-	pkgver = 9.00
-	pkgrel = 4
+	pkgver = 9.01
+	pkgrel = 1
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -23,13 +23,13 @@ pkgbase = ghostscript
 	optdepends = gtk2: needed for gsx
 	options = !libtool
 	options = !makeflags
-	source = http://ghostscript.com/releases/ghostscript-9.00.tar.xz
+	source = http://ghostscript.com/releases/ghostscript-9.01.tar.bz2
 	source = ghostscript-fPIC.patch
 	source = ghostscript-system-jasper.patch
 	source = svn_rev11948.diff
 	source = ghostscript-gdevcups-691733.patch
 	source = gs_bug691759and691760.diff
-	md5sums = 1ca5f245677f78f573e6490bdb40702f
+	md5sums = 9824d6a21ad8b4a831f67601959f1181
 	md5sums = 766d44c47c693f96941b658e360c1277
 	md5sums = 03e27cd02471ab3b642c344fa06b623e
 	md5sums = 78f2b9c2d6a5a60891b2d8b593a15b00
