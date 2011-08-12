@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 9.04
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -19,7 +19,6 @@ pkgbase = ghostscript
 	depends = libpng
 	depends = libjpeg
 	depends = libtiff
-	depends = lcms
 	optdepends = texlive-core: needed for dvipdf
 	optdepends = gtk2: needed for gsx
 	options = !libtool
