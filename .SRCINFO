@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 9.04
-	pkgrel = 4
+	pkgrel = 5
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -27,7 +27,7 @@ pkgbase = ghostscript
 	source = http://downloads.ghostscript.com/public/ghostscript-9.04.tar.bz2
 	source = ghostscript-cups-rgbw.patch
 	md5sums = 9f6899e821ab6d78ab2c856f10fa3023
-	md5sums = 7c1477e1cadd9c451ea8d6ec3fbbc670
+	md5sums = bc56eb8c5fef0ecf964f6b3e9b7e65ae
 
 pkgname = ghostscript
 
