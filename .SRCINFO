@@ -2,12 +2,12 @@
 # Mon Sep 26 04:10:34 UTC 2016
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
-	pkgver = 9.06
+	pkgver = 9.07
 	pkgrel = 1
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
-	license = GPL3
+	license = AGPL
 	license = custom
 	makedepends = gtk2
 	makedepends = gnutls
@@ -20,12 +20,13 @@ pkgbase = ghostscript
 	depends = libjpeg
 	depends = libtiff>=4.0.0
 	depends = lcms
+	depends = dbus
 	optdepends = texlive-core: needed for dvipdf
 	optdepends = gtk2: needed for gsx
 	options = !libtool
 	options = !makeflags
-	source = http://downloads.ghostscript.com/public/ghostscript-9.06.tar.bz2
-	md5sums = 46f9ebe40dc52755287b30704270db11
+	source = http://downloads.ghostscript.com/public/ghostscript-9.07.tar.bz2
+	md5sums = eea27befc1e85bef6d4768202f6b03a5
 
 pkgname = ghostscript
 
