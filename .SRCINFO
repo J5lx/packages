@@ -2,8 +2,8 @@
 # Mon Sep 26 04:10:34 UTC 2016
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
-	pkgver = 9.07
-	pkgrel = 3
+	pkgver = 9.08
+	pkgrel = 1
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -25,8 +25,8 @@ pkgbase = ghostscript
 	optdepends = gtk2: needed for gsx
 	options = !libtool
 	options = !makeflags
-	source = http://downloads.ghostscript.com/public/ghostscript-9.07.tar.bz2
-	md5sums = eea27befc1e85bef6d4768202f6b03a5
+	source = http://downloads.ghostscript.com/public/ghostscript-9.08.tar.bz2
+	md5sums = 22d5c66e32ea2a4a62ce43fbf01281f2
 
 pkgname = ghostscript
 
