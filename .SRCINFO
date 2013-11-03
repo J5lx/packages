@@ -39,6 +39,7 @@ pkgname = imagemagick
 	depends = libxext
 	depends = liblqr
 	depends = libcl
+	optdepends = imagemagick-doc: for additional information
 	optdepends = ghostscript: for Ghostscript support
 	optdepends = openexr: for OpenEXR support
 	optdepends = libwmf: for WMF support
