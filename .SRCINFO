@@ -2,7 +2,7 @@
 # Mon Sep 26 03:17:31 UTC 2016
 pkgbase = imagemagick
 	pkgver = 6.8.7.4
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.imagemagick.org/
 	arch = i686
 	arch = x86_64
