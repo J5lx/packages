@@ -2,7 +2,7 @@
 # Mon Sep 26 04:10:36 UTC 2016
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
-	pkgver = 9.16
+	pkgver = 9.18
 	pkgrel = 1
 	url = http://www.ghostscript.com/
 	arch = i686
@@ -25,9 +25,9 @@ pkgbase = ghostscript
 	depends = libpaper
 	optdepends = texlive-core: needed for dvipdf
 	optdepends = gtk3: needed for gsx
-	source = http://downloads.ghostscript.com/public/ghostscript-9.16.tar.bz2
+	source = http://downloads.ghostscript.com/public/ghostscript-9.18.tar.bz2
 	source = ghostscript-sys-zlib.patch
-	sha1sums = 529e2b0be754cb353880a4ac97e3efa47ef82f5c
+	sha1sums = 388fea50a38e422a4c6ff27c184491bf5ecb96e1
 	sha1sums = e054caf753df4d67221b29a2eac66130653f7556
 
 pkgname = ghostscript
