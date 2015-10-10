@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 9.18
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -27,8 +27,10 @@ pkgbase = ghostscript
 	optdepends = gtk3: needed for gsx
 	source = http://downloads.ghostscript.com/public/ghostscript-9.18.tar.bz2
 	source = ghostscript-sys-zlib.patch
+	source = bug_696246.diff
 	sha1sums = 388fea50a38e422a4c6ff27c184491bf5ecb96e1
 	sha1sums = e054caf753df4d67221b29a2eac66130653f7556
+	sha1sums = 8bdcb72250f81d8d1f3b3cff4becb673113ed302
 
 pkgname = ghostscript
 
