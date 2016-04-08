@@ -1,0 +1,16 @@
+pkgbase = ocaml-cmdliner
+	pkgdesc = An OCaml module for declarative definition of command line interfaces.
+	pkgver = 0.9.8
+	pkgrel = 1
+	url = http://erratique.ch/software/cmdliner
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ocaml-findlib
+	makedepends = opam
+	depends = ocaml
+	source = http://erratique.ch/software/cmdliner/releases/cmdliner-0.9.8.tbz
+	md5sums = fc67c937447cc223722f1419fa2189da
+
+pkgname = ocaml-cmdliner
+
