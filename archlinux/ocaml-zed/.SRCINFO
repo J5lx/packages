@@ -1,0 +1,18 @@
+pkgbase = ocaml-zed
+	pkgdesc = An abstract engine for text editing
+	pkgver = 1.4
+	pkgrel = 1
+	url = https://github.com/diml/zed
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ocaml-findlib
+	depends = ocaml
+	depends = ocaml-camomile
+	depends = ocaml-react
+	options = !strip
+	source = https://github.com/diml/zed/archive/1.4.tar.gz
+	md5sums = 47661250ed1b3e12c886d19c1a019675
+
+pkgname = ocaml-zed
+
