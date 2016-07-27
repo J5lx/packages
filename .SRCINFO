@@ -3,7 +3,7 @@
 pkgbase = ghostscript
 	pkgdesc = An interpreter for the PostScript language
 	pkgver = 9.19
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.ghostscript.com/
 	arch = i686
 	arch = x86_64
@@ -12,6 +12,7 @@ pkgbase = ghostscript
 	makedepends = gtk3
 	makedepends = gnutls
 	makedepends = hardening-wrapper
+	makedepends = ijs
 	depends = libxt
 	depends = libcups
 	depends = fontconfig
@@ -27,7 +28,7 @@ pkgbase = ghostscript
 	optdepends = gtk3: needed for gsx
 	source = https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs919/ghostscript-9.19.tar.bz2
 	source = ghostscript-sys-zlib.patch
-	sha1sums = 202e234d54a4ccd667b57c9ae8b48bd65fafd503
+	sha1sums = 6ac5c1fb665b3201622e1149f04c641c506bf6c4
 	sha1sums = e054caf753df4d67221b29a2eac66130653f7556
 
 pkgname = ghostscript
